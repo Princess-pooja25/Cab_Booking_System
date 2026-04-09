@@ -1,4 +1,5 @@
 <?php
+require __DIR__ . '/../src/db.php';
 session_start();
 include "db.php";
 
