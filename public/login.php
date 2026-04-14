@@ -1,7 +1,7 @@
 <?php
 require __DIR__ . '/../src/db.php';
 session_start();
-include "db.php";
+
 
 /* If already logged in, redirect */
 if (isset($_SESSION['id'])) {

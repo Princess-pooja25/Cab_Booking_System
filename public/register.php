@@ -1,6 +1,6 @@
 <?php
 require __DIR__ . '/../src/db.php';
-include "db.php";
+## include "db.php";
 
 $conn = OpenCon();
 
