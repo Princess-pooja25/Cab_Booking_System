@@ -1,0 +1,90 @@
+🚖 Cab Booking System – Documentation
+1. 📌 Introduction
+
+The Cab Booking System is a web-based application that allows users to book cabs online, track ride details, and manage bookings efficiently. The system provides separate functionalities for users, drivers, and administrators.
+
+2. 🎯 Objectives
+To provide an easy and fast cab booking experience
+To manage users, drivers, and bookings efficiently
+To reduce manual errors in booking management
+To ensure secure and reliable ride allocation
+3. 🧩 System Modules
+👤 User Module
+User Registration & Login
+Book a Cab
+View Booking History
+Cancel Booking
+🚗 Driver Module
+Driver Registration
+Accept/Reject Ride Requests
+View Assigned Rides
+🛠️ Admin Module
+Manage Users
+Manage Drivers
+View All Bookings
+Assign Drivers
+4. 🏗️ System Architecture
+
+The system follows a 3-tier architecture:
+
+Frontend: User interface (HTML, CSS, JavaScript)
+Backend: Business logic (PHP / Node.js)
+Database: Data storage (MySQL)
+5. 🗄️ Database Design
+📊 Tables Used
+1. Users Table
+user_id (Primary Key)
+name
+email
+password
+phone
+2. Drivers Table
+driver_id (Primary Key)
+name
+vehicle_details
+phone
+availability_status
+3. Bookings Table
+booking_id (Primary Key)
+user_id (Foreign Key)
+driver_id (Foreign Key)
+pickup_location
+drop_location
+booking_status
+date_time
+6. 🔄 Workflow
+User logs into the system
+User enters pickup & drop location
+System checks available drivers
+Driver is assigned to the booking
+Ride status is updated
+User can view or cancel booking
+7. 💻 Technologies Used
+Frontend: HTML, CSS, JavaScript
+Backend: PHP / Node.js
+Database: MySQL
+Version Control: Git & GitHub
+8. 🔐 Security Features
+User authentication (Login system)
+Password protection
+Input validation to prevent errors
+Database security using queries
+9. 🧪 Testing
+Unit Testing for individual modules
+Integration Testing for combined modules
+System Testing for overall functionality
+10. 📂 Source Code Management
+Code is maintained using Git
+Proper folder structure followed
+README file included
+Documentation stored in repository
+Regular commits with meaningful messages
+11. 🚀 Future Enhancements
+GPS-based live tracking
+Online payment integration
+Mobile application support
+Rating and feedback system
+12. ✅ Conclusion
+
+The Cab Booking System simplifies the process of booking rides and managing drivers efficiently. It ensures better user experience, reduced manual work, and scalable system performance.
+
